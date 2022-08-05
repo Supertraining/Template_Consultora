@@ -236,16 +236,16 @@
 }
 
 footer {
-  height: 250px;
+  height: fit-content;
 }
 
 .footer__DivSocialNav {
-  width: fit-content;
-  height: fit-content;
+  max-width: 320px;
+  height: 100px;
 }
-.footer__DivSocialNav div > a:hover {
+.footer__DivSocialNav div > a > img:hover {
   box-shadow: inset 5px 5px 30px rgb(255, 68, 0);
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .tapita {
