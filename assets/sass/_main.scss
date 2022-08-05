@@ -33,14 +33,18 @@
     font-size: 1.5rem;
     height: 80px;
     top: 250px;
+    position: absolute;
+    bottom: 0px;
     right: 0px;
     padding: 15px 0px 15px 0px;
     @keyframes enterRightLeft {
       from {
         right: -500px;
+        bottom: 0px;
       }
       to {
         right: 0px;
+        bottom: 0px;
       }
     }
   }
@@ -68,7 +72,7 @@
     }
   }
   @media (max-width: 400px) {
-    top: 120px;
+    top: 150px;
     @keyframes enterRightLeft {
       from {
         right: -500px;
@@ -96,7 +100,6 @@
     width: fit-content;
     position: absolute;
     bottom: -50px;
-    left: 300px;
     text-align: center;
     padding: 20px;
     a {
@@ -109,6 +112,9 @@
         &:hover {
             background-color: rgba(0, 0, 0, 0.541) !important;
         }
+        @media (max-width:762px) {
+          font-size: 2.8rem;
+        }
     }
     .nav {
         --bs-nav-link-hover-color: orangered !important;
@@ -118,17 +124,18 @@
         background-color: rgba(0, 0, 0, 0.541) !important;
         color: orangered !important;
     }
-  
+
     @media(max-width:576px){
-      // bottom: 100px;
       top: 0px;
-      left:5px;
       width: 300px;
       padding: 0px;
       a {
-        font-size: 1.1rem;
+        font-size: 2rem;
         color: orangered !important;
         -webkit-text-stroke: 0px;
+        @media (max-width:410px) {
+          font-size: 1.5rem;
+        }
       }
       .nav {
         --bs-nav-link-hover-color: orangered !important;
@@ -148,5 +155,5 @@
   @media (max-width:576px) {
     transform: none !important;
   }
-    
+
 }
