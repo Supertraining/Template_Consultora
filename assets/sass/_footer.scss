@@ -1,0 +1,28 @@
+footer {
+    height: 250px;
+}
+.footer__DivSocialNav {
+ width: fit-content;
+ height: fit-content;
+ 
+ div>a:hover {
+    box-shadow: inset 5px 5px 30px rgb(255, 68, 0);
+        border-radius: 50%;
+ }
+}
+.tapita {
+    border: 1px solid orangered;
+    height: 84px;
+    position: relative;
+    bottom: 92px;
+    transition: 3s;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 324px;
+    @media (max-width: 576px){
+        display: none !important;
+    }
+}
+.tapitaMove {
+    transform: translateY(80px);
+    transition: 5s;
+}
