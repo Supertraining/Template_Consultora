@@ -4,16 +4,13 @@ footer {
 .footer__DivSocialNav {
  max-width: 320px;
  height: 100px;
-//  @media (max-width: 576px) {
-//     flex-direction: column !important;
-//  }
  
  div>a>img:hover {
     box-shadow: inset 5px 5px 30px rgb(255, 68, 0);
         border-radius: 20%;
  }
 }
-.tapita {
+.footer__SocialNav__Cover {
     border: 1px solid orangered;
     height: 84px;
     position: relative;
@@ -25,7 +22,25 @@ footer {
         display: none !important;
     }
 }
-.tapitaMove {
+.footer__SocialNav__CoverMove {
     transform: translateY(80px);
     transition: 5s;
 }
+
+.footer__DivMapAndData{
+    height: fit-content;
+
+}
+.map {
+    width: 150px; 
+    height: 150px; 
+    background-color: lightgray; 
+    margin: 5px;
+}
+.data{
+    width: 150px; 
+    height: 150px; 
+    margin: 5px; 
+    padding: 5px;
+}
+

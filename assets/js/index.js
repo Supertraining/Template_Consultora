@@ -40,14 +40,14 @@ observer = new IntersectionObserver(entries => {
     
     if (entry.isIntersecting) {
       
-      entry.target=(tapita).classList.add('tapitaMove');
+      entry.target=(tapita).classList.add('footer__SocialNav__CoverMove');
     } else { 
       
-      entry.target=(tapita).classList.remove('tapitaMove');
+      entry.target=(tapita).classList.remove('footer__SocialNav__CoverMove');
     }
   });
 });
 
 let socialNavContainer = document.getElementById(`socialNav-container`)
 observer.observe(socialNavContainer)
-let tapita = document.getElementById(`tapita`)
+let tapita = document.getElementById(`socialNav-cover`)
