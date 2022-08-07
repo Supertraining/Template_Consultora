@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"
-        content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -14,11 +13,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet"
         href="./assets/css/styles.css">
-
 </head>
-
 <body>
-
     <header>
         <nav class="navbar navbar-expand-lg h-100 bg-dark navbar-dark">
             <div class="container-fluid">
@@ -69,78 +65,68 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="d-flex">
+        <form class="row m-5 p-3 justify-content-center border rounded col-xl-6"
+      action=""
+      method="post">
 
-        <div id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="carouselImg__Top col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">La selección de personal es
-                        la piedra angular del éxito empresarial</div>
-                    <img src="./assets/img/trabajo_1.jpg"
-                        class="d-block w-100"
-                        alt="...">
-                    <div class="bg-dark text-white">
-                        Foto de <a
-                            href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a>
-                        en <a
-                            href="https://unsplash.com/es/s/fotos/work?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carouselImg__Top col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">La aplicación de los test
-                        adecuados para dicha selección es clave</div>
-                    <img src="./assets/img/trabajo_2.jpg"
-                        class="d-block w-100"
-                        alt="...">
-                    <div class="bg-dark text-white">
-                        Foto de <a
-                            href="https://unsplash.com/@jasongoodman_youxventures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason
-                            Goodman</a> en <a
-                            href="https://unsplash.com/es/s/fotos/work?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </div>
+      <div class="Div__Input form-group col-md-4 col-6 m-3 border-0 p-0 rounded-3 text-center">
+        <input class="bg-dark rounded w-100 border-0" type="text"
+         
+          id="nombre"
+          placeholder="NOMBRE"
+          required />
+      </div>
 
-                </div>
-                <div class="carousel-item">
-                    <div class="carouselImg__Top col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">El recurso humano es el
-                        capital mas valioso dentro de su empresa.</div>
-                    <img src="./assets/img/trabajo_3.jpg"
-                        class="d-block w-100"
-                        alt="...">
-                    <div class="bg-dark text-white">
-                        Foto de <a
-                            href="https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Campaign
-                            Creators</a> en <a
-                            href="https://unsplash.com/es/s/fotos/work?utm_source=unsplash&utm_medium=referral& utm_content=creditCopyText">Unsplash</a>
-                    </div>
-                </div>
-                <div class="carouselImg__Bottom d-flex justify-content-center w-100"
-                    id="div-tabs">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item mx-1">
-                            <a class="nav-link active"
-                                aria-current="page"
-                                href="#"
-                                id="tab1">PreOcupacionales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="#"
-                                id="tab2">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="#"
-                                id="tab3">Asesoramiento</a>
-                        </li>
-                    </ul>
-                </div>
+      <div class="Div__Input form-group col-md-4 col-6 m-3 border-0 p-0 rounded-3 text-center">
+        <input type="tel"
+          class="bg-dark rounded w-100 border-0"
+          id="Whapp"
+          pattern="[0-9]{2}-[0-9]{1}-[0-9]{3}-[0-9]{4}"
+          placeholder="11-5-555-5555"
+          required />
+      </div>
+
+      <div class="Div__Input form-group col-md-8 col-10 m-3 border-0 p-0 rounded-3">
+        <input type="email"
+          class="bg-dark rounded w-100 border-0"
+          id="inputMail"
+          placeholder="EMAIL"
+          required />
+      </div>
+
+      <div class="Div__Input form-group col-md-8 col-10 m-3 p-0 rounded border-0">
+        <textarea class="bg-dark w-100 rounded border-0"
+          name="Comentarios"
+          id="Comentarios"
+          cols="30"
+          rows="10"
+          placeholder="MENSAJE"
+          required></textarea>
+      </div>
+
+      <div class="Div__Input col-md-5 col-5 text-center p-0 rounded-3">
+        <button type="submit"
+          class="bg-dark text-light w-100">
+          Enviar
+        </button>
+      </div>
+
+    </form>
+    <div class="m-5 border rounded text-center col-xl-4 p-5">
+        <p class="parrafoContacto">
+            Para solicitar información por favor complete el formulario o envienos un whastapp!
+            <div class="d-flex justify-content-center m-3">
+                <a href=""><img class="p-1"
+                        src="./assets/img/whatsapp.png"
+                        alt=""></a>
             </div>
-        </div>
+        </p>
+
+    </div>
     </main>
-    <footer class="bg-dark m-0 d-flex justify-content-around flex-wrap">
-        <div>
+    <footer class="bg-dark m-0 d-flex justify-content-around flex-wrap mt-5">
+        <div class="mt-2">
             <div class="footer__DivSocialNav d-flex flex-wrap align-items-center justify-content-evenly border rounded p-3 m-1"
                 id="socialNav-container">
                 <div class="d-flex justify-content-center m-3">
@@ -176,12 +162,12 @@
                 alt=""
                 class="d-inline-block align-text-top">
         </a>
-        <div class="border rounded p-3 d-flex flex-wrap justify-content-around footer__DivMapAndData col-xl-4">
+        <div class="border rounded p-3 d-flex flex-wrap justify-content-around footer__DivMapAndData col-xl-4 mt-2">
             <iframe src=""
                 frameborder="0"
                 class="map"></iframe>
 
-            <div class="text-white border rounded data">
+            <div class="data">
                <ul class="list-unstyled">
                 <li>Consultora M&N</li>
                 <li>Dir: Calle 376 Berazategui</li>
@@ -191,11 +177,9 @@
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/contacto.js"></script>
 </body>
-
 </html>

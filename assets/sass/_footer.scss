@@ -38,9 +38,18 @@ footer {
     margin: 5px;
 }
 .data{
-    width: 150px; 
+    width: 155px; 
     height: 150px; 
     margin: 5px; 
     padding: 5px;
+    ul {
+        color: orangered;
+        font-family: 'Roboto Slab', serif;
+        
+        li {
+        font-size: 1.1rem;
+        line-height: 25px;
+        }
+    }
 }
 

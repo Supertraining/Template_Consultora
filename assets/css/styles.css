@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 @media (min-width: 992px) {
   header {
     height: 250px;
@@ -7,6 +8,7 @@
 .nav-link {
   color: rgb(233, 62, 0);
   font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
 }
 
 .navbar-brand {
@@ -81,6 +83,7 @@
   background-color: rgba(0, 0, 0, 0.541);
   color: rgba(255, 255, 255, 0.438);
   font-size: 3rem;
+  font-family: "Roboto Slab", serif;
   text-align: center;
   padding: 15px;
   animation-name: enterRightLeft;
@@ -296,8 +299,40 @@ footer {
 }
 
 .data {
-  width: 150px;
+  width: 155px;
   height: 150px;
   margin: 5px;
   padding: 5px;
+}
+.data ul {
+  color: orangered;
+  font-family: "Roboto Slab", serif;
+}
+.data ul li {
+  font-size: 1.1rem;
+  line-height: 25px;
+}
+
+.Div__Input {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 5.4px 33px;
+  font-weight: 100;
+}
+.Div__Input :focus {
+  background-color: darkgrey !important;
+}
+.Div__Input input {
+  color: orangered;
+}
+.Div__Input textarea {
+  color: orangered;
+}
+.Div__Input button:hover {
+  color: orangered !important;
+}
+
+.parrafoContacto {
+  font-size: 3rem;
 }/*# sourceMappingURL=styles.css.map */

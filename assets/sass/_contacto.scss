@@ -1,0 +1,22 @@
+.Div__Input{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 5.4px 33px;
+    font-weight: 100;
+    :focus {
+        background-color: darkgrey !important;
+    }
+    input {
+    color: orangered;
+    }
+    textarea {
+    color: orangered;
+    }
+  button:hover {
+    color: orangered !important;
+  }
+}
+.parrafoContacto {
+    font-size: 3rem;
+}
