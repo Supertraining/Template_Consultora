@@ -19,4 +19,18 @@
 }
 .parrafoContacto {
     font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.whappN {
+  border-radius: 50% 50% 50% 0%;
+  &:hover {
+    box-shadow:  5px 5px 2px rgba(0, 0, 0, 0.308),  -5px -5px 2px rgba(0, 0, 0, 0.384);
+    transition: 1s;
+  }
+  &:active {
+    box-shadow:  2px 2px 2px rgba(0, 0, 0, 0.308),  -2px -2px 2px rgba(0, 0, 0, 0.384);
+    transition: 0.1s;
+
+  }
 }

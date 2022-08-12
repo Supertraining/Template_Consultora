@@ -5,10 +5,10 @@
       
       if (entry.isIntersecting) {
         
-        entry.target.classList.add('show');
+        entry.target.classList.add('showTabs');
       } else { 
         
-        entry.target.classList.remove('show');
+        entry.target.classList.remove('showTabs');
       }
     });
   });

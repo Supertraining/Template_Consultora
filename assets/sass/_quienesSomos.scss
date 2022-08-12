@@ -1,0 +1,31 @@
+.divMivi {
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    h3 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 2.2rem;
+        text-decoration: underline;
+    }
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 2rem;
+
+    }
+}
+.divMision {
+    @extend .divMivi;
+    background-image: url(../img/7566.jpg);
+    background-position: 60% 25%;
+}
+.divVision {
+    @extend .divMivi;
+    background-image: url(../img/8619.jpg);
+    background-position: 60% 25%;
+}
+.divValores {
+    @extend .divMivi;
+    background-image: url(../img/4565.jpg);
+    background-position: 60% 25%;
+}
