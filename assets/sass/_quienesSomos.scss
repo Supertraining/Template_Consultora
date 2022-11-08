@@ -1,0 +1,112 @@
+.mainBackgroundColor {
+  box-shadow: inset 5px 5px 200px 10px rgba(255, 68, 0, 0.767), inset -5px -5px 200px 10px rgba(0, 0, 0, 0.664);
+}
+.min-vh-100 {
+  min-height: 105vh !important;
+  @media (max-width: 1330px) {
+    min-height: 122vh !important;
+  }
+}
+
+.divMivi {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  box-shadow: 3px 3px 5px black;
+  h3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 2.2rem;
+    text-decoration: underline;
+  }
+  p {
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+  }
+}
+.divMision {
+  @extend .divMivi;
+  background-image: url(../img/7566.jpg);
+  background-position: 60% 25%;
+}
+.divVision {
+  @extend .divMivi;
+  background-image: url(../img/8619.jpg);
+  background-position: 60% 25%;
+}
+.divValores {
+  @extend .divMivi;
+  background-image: url(../img/4565.jpg);
+  background-position: 60% 25%;
+}
+
+.quienesSomos__carouselImg__Bottom {
+  z-index: -1;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: -330px;
+  @media (max-width: 1330px) {
+    bottom: -418px;
+  }
+  @media (max-width: 991px) {
+    position: unset;
+  }
+  a {
+    font-size: 4rem;
+    color: transparent;
+    text-decoration: none;
+    -webkit-text-stroke: 1px black;
+    background-color: transparent !important;
+    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.205);
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.541) !important;
+    }
+    @media (max-width: 900px) {
+      font-size: 3.5rem;
+    }
+    @media (max-width: 762px) {
+      font-size: 3rem;
+    }
+  }
+  .nav {
+    --bs-nav-link-hover-color: orangered !important;
+    --bs-nav-link-disabled-color: transparent !important;
+  }
+  .active {
+    background-color: rgba(0, 0, 0, 0.541) !important;
+    color: orangered !important;
+  }
+
+  @media (max-width: 576px) {
+    top: 0px;
+    width: 300px;
+    padding: 0px;
+    a {
+      font-size: 2.5rem;
+      color: orangered !important;
+      -webkit-text-stroke: 0px;
+      @media (max-width: 410px) {
+        font-size: 2rem;
+      }
+    }
+    .nav {
+      --bs-nav-link-hover-color: orangered !important;
+      --bs-nav-link-disabled-color: transparent !important;
+    }
+    .active {
+      background-color: rgba(0, 0, 0, 0.541) !important;
+      color: orangered !important;
+    }
+  }
+}
+
+.quienesSomos__ShowTabs {
+  transform: translateY(-50px) !important;
+  transition: 5s;
+  z-index: 1000;
+  @media (max-width:991px) {
+  transform: none !important;
+  }
+}
