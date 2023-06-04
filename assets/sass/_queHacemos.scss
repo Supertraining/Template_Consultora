@@ -3,9 +3,6 @@
     background-size: cover;
     background-position: center;
     opacity: 0.8;
-    @media (max-width: 575px){
-        justify-content: center !important;
-    }
 }
 
 .div__paragraph {
@@ -22,15 +19,6 @@
     width: fit-content;
     text-align: center;
     margin-top: 20px;
-    position: absolute;
-    bottom: -330px;
-    @media (max-width: 1330px) {
-      bottom: -417px;
-    }
-    @media (max-width: 991px) {
-        position: unset;
-      
-    }
     a {
       font-size: 4rem;
       color: transparent;
@@ -80,11 +68,3 @@
     }
   }
   
-  .quienesSomos__ShowTabs {
-    transform: translateY(-50px) !important;
-    transition: 5s;
-    z-index: 1000;
-    @media (max-width:991px) {
-    transform: none !important;
-    }
-  }

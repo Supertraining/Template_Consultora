@@ -240,8 +240,6 @@
     --bs-nav-link-hover-color: orangered !important;
     --bs-nav-link-disabled-color: transparent !important;
   }
-}
-@media (max-width: 576px) {
   .carouselImg__Bottom .active {
     background-color: rgba(0, 0, 0, 0.541) !important;
     color: orangered !important;
@@ -385,17 +383,17 @@ footer {
 }
 
 .divMision {
-  background-image: url(../img/7566.jpg);
+  background-image: url(../img/7566-min.jpg);
   background-position: 60% 25%;
 }
 
 .divVision {
-  background-image: url(../img/8619.jpg);
+  background-image: url(../img/8619-min.jpg);
   background-position: 60% 25%;
 }
 
 .divValores {
-  background-image: url(../img/4565.jpg);
+  background-image: url(../img/4565-min.jpg);
   background-position: 60% 25%;
 }
 
@@ -405,18 +403,6 @@ footer {
   width: fit-content;
   text-align: center;
   margin-top: 20px;
-  position: absolute;
-  bottom: -330px;
-}
-@media (max-width: 1330px) {
-  .quienesSomos__carouselImg__Bottom {
-    bottom: -418px;
-  }
-}
-@media (max-width: 991px) {
-  .quienesSomos__carouselImg__Bottom {
-    position: unset;
-  }
 }
 .quienesSomos__carouselImg__Bottom a {
   font-size: 4rem;
@@ -469,22 +455,9 @@ footer {
     --bs-nav-link-hover-color: orangered !important;
     --bs-nav-link-disabled-color: transparent !important;
   }
-}
-@media (max-width: 576px) {
   .quienesSomos__carouselImg__Bottom .active {
     background-color: rgba(0, 0, 0, 0.541) !important;
     color: orangered !important;
-  }
-}
-
-.quienesSomos__ShowTabs {
-  transform: translateY(-50px) !important;
-  transition: 5s;
-  z-index: 1000;
-}
-@media (max-width: 991px) {
-  .quienesSomos__ShowTabs {
-    transform: none !important;
   }
 }
 
@@ -493,11 +466,6 @@ footer {
   background-size: cover;
   background-position: center;
   opacity: 0.8;
-}
-@media (max-width: 575px) {
-  .main__background {
-    justify-content: center !important;
-  }
 }
 
 .div__paragraph {
@@ -514,18 +482,6 @@ footer {
   width: fit-content;
   text-align: center;
   margin-top: 20px;
-  position: absolute;
-  bottom: -330px;
-}
-@media (max-width: 1330px) {
-  .queHacemos__carouselImg__Bottom {
-    bottom: -417px;
-  }
-}
-@media (max-width: 991px) {
-  .queHacemos__carouselImg__Bottom {
-    position: unset;
-  }
 }
 .queHacemos__carouselImg__Bottom a {
   font-size: 4rem;
@@ -578,22 +534,9 @@ footer {
     --bs-nav-link-hover-color: orangered !important;
     --bs-nav-link-disabled-color: transparent !important;
   }
-}
-@media (max-width: 576px) {
   .queHacemos__carouselImg__Bottom .active {
     background-color: rgba(0, 0, 0, 0.541) !important;
     color: orangered !important;
-  }
-}
-
-.quienesSomos__ShowTabs {
-  transform: translateY(-50px) !important;
-  transition: 5s;
-  z-index: 1000;
-}
-@media (max-width: 991px) {
-  .quienesSomos__ShowTabs {
-    transform: none !important;
   }
 }
 
@@ -616,4 +559,6 @@ footer {
   color: black;
   background-color: rgba(255, 68, 0, 0.814);
   padding: 80px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

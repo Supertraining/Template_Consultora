@@ -25,17 +25,17 @@
 }
 .divMision {
   @extend .divMivi;
-  background-image: url(../img/7566.jpg);
+  background-image: url(../img/7566-min.jpg);
   background-position: 60% 25%;
 }
 .divVision {
   @extend .divMivi;
-  background-image: url(../img/8619.jpg);
+  background-image: url(../img/8619-min.jpg);
   background-position: 60% 25%;
 }
 .divValores {
   @extend .divMivi;
-  background-image: url(../img/4565.jpg);
+  background-image: url(../img/4565-min.jpg);
   background-position: 60% 25%;
 }
 
@@ -45,14 +45,6 @@
   width: fit-content;
   text-align: center;
   margin-top: 20px;
-  position: absolute;
-  bottom: -330px;
-  @media (max-width: 1330px) {
-    bottom: -418px;
-  }
-  @media (max-width: 991px) {
-    position: unset;
-  }
   a {
     font-size: 4rem;
     color: transparent;
@@ -102,11 +94,3 @@
   }
 }
 
-.quienesSomos__ShowTabs {
-  transform: translateY(-50px) !important;
-  transition: 5s;
-  z-index: 1000;
-  @media (max-width:991px) {
-  transform: none !important;
-  }
-}
