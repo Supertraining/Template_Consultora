@@ -18,7 +18,7 @@ footer {
     transition: 3s;
     background-color: rgba(0, 0, 0, 0.541);
     width: 324px;
-    @media (max-width: 576px){
+    @media (max-width: 764px){
         display: none !important;
     }
 }
@@ -29,7 +29,6 @@ footer {
 
 .footer__DivMapAndData{
     height: fit-content;
-
 }
 .map {
     width: 145px; 
@@ -38,8 +37,6 @@ footer {
     margin: 5px;
 }
 .data{
-    width: 155px; 
-    height: 150px; 
     margin: 5px; 
     padding: 5px;
     ul {
@@ -49,7 +46,14 @@ footer {
         li {
         font-size: 1.1rem;
         line-height: 25px;
+        font-weight: 500;
         }
     }
 }
 
+.data-icons {
+    font-size: 2rem;
+    font-weight: bolder;
+    color:black;
+    margin: 0px 5px;
+}

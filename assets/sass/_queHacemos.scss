@@ -1,70 +1,23 @@
 .main__background {
-    background-image: url(../img/35744.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
+  background-image: url(../img/35744.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
 }
 
 .div__paragraph {
-    font-family: "Roboto Slab", serif;
-    font-size: 2rem;
-    font-weight:bold;
-    color: black;
-    background-color: rgba(255, 68, 0, 0.814);
+  background-color: rgba(255, 68, 0, 0.8);
+}
+.paragraph__title {
+  font-size: clamp(2.5rem, 2vw, 2rem) !important;
+  font-weight: bolder;
+  color: black;
+}
+.paragraph {
+  font-family: 'Roboto Slab', serif;
+  font-size: clamp(1.6rem, 2vw, 2rem);
+  font-weight: bolder;
+  color: black;
 }
 
-.queHacemos__carouselImg__Bottom {
-    z-index: -1;
-    height: fit-content;
-    width: fit-content;
-    text-align: center;
-    margin-top: 20px;
-    a {
-      font-size: 4rem;
-      color: transparent;
-      text-decoration: none;
-      -webkit-text-stroke: 1px black;
-      background-color: transparent !important;
-      box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.205);
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.541) !important;
-      }
-      @media (max-width: 900px) {
-        font-size: 3.5rem;
-      }
-      @media (max-width: 762px) {
-        font-size: 3rem;
-      }
-    }
-    .nav {
-      --bs-nav-link-hover-color: orangered !important;
-      --bs-nav-link-disabled-color: transparent !important;
-    }
-    .active {
-      background-color: rgba(0, 0, 0, 0.541) !important;
-      color: orangered !important;
-    }
-  
-    @media (max-width: 576px) {
-      bottom: 0px;
-      width: 300px;
-      padding: 0px;
-      a {
-        font-size: 2.5rem;
-        color: orangered !important;
-        -webkit-text-stroke: 0px;
-        @media (max-width: 410px) {
-          font-size: 2rem;
-        }
-      }
-      .nav {
-        --bs-nav-link-hover-color: orangered !important;
-        --bs-nav-link-disabled-color: transparent !important;
-      }
-      .active {
-        background-color: rgba(0, 0, 0, 0.541) !important;
-        color: orangered !important;
-      }
-    }
-  }
-  
+

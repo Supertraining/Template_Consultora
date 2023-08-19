@@ -1,96 +1,37 @@
-.mainBackgroundColor {
-  box-shadow: inset 5px 5px 200px 10px rgba(255, 68, 0, 0.767), inset -5px -5px 200px 10px rgba(0, 0, 0, 0.664);
-}
-.min-vh-100 {
-  min-height: 105vh !important;
-  @media (max-width: 1330px) {
-    min-height: 122vh !important;
-  }
+
+.title {
+  font-size: clamp(3rem, 4vw, 5rem) !important;
+  font-weight: bolder;
+  color: black;
 }
 
 .divMivi {
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 5px rgba(255, 68, 0, 0.8);
   h3 {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 2.2rem;
     text-decoration: underline;
   }
   p {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 2rem;
   }
 }
 .divMision {
   @extend .divMivi;
   background-image: url(../img/7566-min.jpg);
-  background-position: 60% 25%;
+  background-position: 60% 48px;
 }
 .divVision {
   @extend .divMivi;
   background-image: url(../img/8619-min.jpg);
-  background-position: 60% 25%;
+  background-position: 60% 82px;
 }
 .divValores {
   @extend .divMivi;
   background-image: url(../img/4565-min.jpg);
-  background-position: 60% 25%;
+  background-position: 60% 40px;
 }
-
-.quienesSomos__carouselImg__Bottom {
-  z-index: -1;
-  height: fit-content;
-  width: fit-content;
-  text-align: center;
-  margin-top: 20px;
-  a {
-    font-size: 4rem;
-    color: transparent;
-    text-decoration: none;
-    -webkit-text-stroke: 1px black;
-    background-color: transparent !important;
-    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.205);
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.541) !important;
-    }
-    @media (max-width: 900px) {
-      font-size: 3.5rem;
-    }
-    @media (max-width: 762px) {
-      font-size: 3rem;
-    }
-  }
-  .nav {
-    --bs-nav-link-hover-color: orangered !important;
-    --bs-nav-link-disabled-color: transparent !important;
-  }
-  .active {
-    background-color: rgba(0, 0, 0, 0.541) !important;
-    color: orangered !important;
-  }
-
-  @media (max-width: 576px) {
-    top: 0px;
-    width: 300px;
-    padding: 0px;
-    a {
-      font-size: 2.5rem;
-      color: orangered !important;
-      -webkit-text-stroke: 0px;
-      @media (max-width: 410px) {
-        font-size: 2rem;
-      }
-    }
-    .nav {
-      --bs-nav-link-hover-color: orangered !important;
-      --bs-nav-link-disabled-color: transparent !important;
-    }
-    .active {
-      background-color: rgba(0, 0, 0, 0.541) !important;
-      color: orangered !important;
-    }
-  }
-}
-

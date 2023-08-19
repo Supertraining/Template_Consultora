@@ -1,14 +1,10 @@
 .carouselImg__Top {
-  height: 200px;
   border-radius: 10px;
   border: 1px solid orangered;
-  position: absolute;
-  right: 50px;
-  top: 50px;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.541);
-  color: rgba(255, 255, 255, 0.438);
-  font-size: 3rem;
+  color: whitesmoke;
+  font-size: clamp(1rem, 2vw, 2rem);
   font-family: 'Roboto Slab', serif;
   text-align: center;
   padding: 15px;
@@ -19,143 +15,7 @@
       right: -500px;
     }
     to {
-      right: 50px;
+      right: 15%;
     }
-  }
-  @media (max-width: 767px) {
-    font-size: 2rem;
-    height: 150px;
-    top: 40px;
-    right: 50px;
-    padding: 30px;
-  }
-
-  @media (max-width: 576px) {
-    font-size: 1.5rem;
-    height: 80px;
-    top: 243px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    padding: 15px 0px 15px 0px;
-    @keyframes enterRightLeft {
-      from {
-        right: -500px;
-        bottom: 0px;
-      }
-      to {
-        right: 0px;
-        bottom: 0px;
-      }
-    }
-  }
-  @media (max-width: 500px) {
-    top: 200px;
-    @keyframes enterRightLeft {
-      from {
-        right: -500px;
-      }
-      to {
-        right: 0px;
-      }
-    }
-  }
-
-  @media (max-width: 450px) {
-    top: 185px;
-    @keyframes enterRightLeft {
-      from {
-        right: -500px;
-      }
-      to {
-        right: 0px;
-      }
-    }
-  }
-  @media (max-width: 400px) {
-    top: 150px;
-    @keyframes enterRightLeft {
-      from {
-        right: -500px;
-      }
-      to {
-        right: 0px;
-      }
-    }
-  }
-  @media (max-width: 300px) {
-    top: 84px;
-    @keyframes enterRightLeft {
-      from {
-        right: -500px;
-      }
-      to {
-        right: 0px;
-      }
-    }
-  }
-}
-.carouselImg__Bottom {
-    z-index: -1;
-    height: fit-content;
-    width: fit-content;
-    position: absolute;
-    bottom: -50px;
-    text-align: center;
-    padding: 20px;
-    a {
-    font-size: 4rem;
-    color: transparent;
-    text-decoration: none;
-    -webkit-text-stroke: 1px black;
-    background-color: transparent !important;
-    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.205);
-        &:hover {
-            background-color: rgba(0, 0, 0, 0.541) !important;
-        }
-        @media (max-width:900px) {
-          font-size: 3.5rem;
-        }
-        @media (max-width:762px) {
-          font-size: 3rem;
-        }
-    }
-    .nav {
-        --bs-nav-link-hover-color: orangered !important;
-        --bs-nav-link-disabled-color: transparent !important;
-    }
-    .active {
-        background-color: rgba(0, 0, 0, 0.541) !important;
-        color: orangered !important;
-    }
-
-    @media(max-width:576px){
-      top: 0px;
-      width: 300px;
-      padding: 0px;
-      a {
-        font-size: 2.5rem;
-        color: orangered !important;
-        -webkit-text-stroke: 0px;
-        @media (max-width:410px) {
-          font-size: 2rem;
-        }
-      }
-      .nav {
-        --bs-nav-link-hover-color: orangered !important;
-        --bs-nav-link-disabled-color: transparent !important;
-      }
-      .active {
-        background-color: rgba(0, 0, 0, 0.541) !important;
-        color: orangered !important;
-      }
-     }
-}
-.showTabs {
-    transform: translateY(-50px) !important;
-    transition: 5s;
-    z-index: 1000;
-  @media (max-width:576px) {
-    transform: none !important;
   }
 }

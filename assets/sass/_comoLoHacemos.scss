@@ -1,18 +1,6 @@
 .comoLoHacemos__backgroundPicture {
-    background-image: url(../img/ComoLoHacemos.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    @media (max-width: 575px){
-        justify-content: center !important;
-    }
-}
-
-.div__paragraph_circle {
-    font-family: "Roboto Slab", serif;
-    font-size: 2rem;
-    font-weight:bold;
-    color: black;
-    background-color: rgba(255, 68, 0, 0.814);
-    padding: 80px;
+  background-image: url(../img/ComoLoHacemos.jpg);
+  background-size: cover;
+  background-position: 50% 40px;
+  opacity: 0.8;
 }
