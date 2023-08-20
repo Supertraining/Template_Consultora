@@ -24,11 +24,10 @@
     <header>
         <nav class="navbar navbar-expand-lg h-100 bg-dark navbar-dark">
             <div class="container-fluid">
-                <div class="w-25">
-                    <a class="navbar-brand d-flex align-items-center" href="../index.html">
-                        <img src="../assets/img/logo_90x90.png" alt="" class="d-inline-block align-text-top px-4">
-                        Consultora
-                    </a>
+
+                <div class="w-25 mx-5 navbar-brand">
+                    <span class="logo-text">C</span>
+                    <span class="logo-text-2">C</span>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,7 +35,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center justify-content-center">
                         <li class="nav-item px-1 mx-2 bordeAnimado">
                             <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
                         </li>
@@ -49,23 +48,28 @@
                         <li class="nav-item px-1 mx-2 bordeAnimado">
                             <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
+                        <li>
+                            <a href="../index.html">
+                                <i class="bi bi-house text-white fs-1"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="d-flex flex-wrap">
+    <main class="d-flex flex-wrap contacto__backgroundPicture">
 
         <div class="col-12 mt-3">
-            <p class="parrafoContacto shadow text-center p-3">
+            <p class="parrafoContacto shadow text-center p-3 bg-white">
                 Para solicitar información por favor complete el formulario o envíenos un mensaje por WhatsApp!
             </p>
         </div>
 
         <div class="row m-1 p-3 justify-content-center col-12">
             <form action="" method="post"
-                class="d-flex flex-column align-items-center col-12 col-sm-8 col-md-8 col-lg-6">
+                class="d-flex flex-column align-items-center col-12 col-sm-8 col-md-8 col-lg-6 border rounded p-0">
 
                 <div
                     class="Div__Input form-group col-md-8 col-10 m-3 p-0 rounded-3 text-center d-flex justify-content-center">
@@ -97,7 +101,7 @@
 
                 <div class="Div__Input col-md-5 col-md-8 col-10 m-3 p-0 text-center">
                     <i class="bi bi-send fs-2"></i>
-                    <button type="submit" class="text-secondary col-10 border  rounded form-btn">
+                    <button type="submit" class="text-whit col-10 border  rounded form-btn">
                         Enviar
                     </button>
                 </div>
