@@ -1,18 +1,14 @@
 .main__background {
-  background-image: url(../img/QueHacemos.jpg);
-  background-size: cover;
+  background-image: url(https://res.cloudinary.com/marangadev/image/upload/v1709135533/consultora/QueHacemos_ncis0u.webp);
+  background-size: contain;
   background-position: center;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .div__paragraph {
   background-color: rgba(255, 68, 0, 0.8);
 }
-.paragraph__title {
-  font-size: clamp(2.5rem, 2vw, 2rem) !important;
-  font-weight: bolder;
-  color: black;
-}
+
 .paragraph {
   font-family: 'Roboto Slab', serif;
   font-size: clamp(1.6rem, 2vw, 2rem);

@@ -1,14 +1,15 @@
 .quienesSomos__backgroundPicture {
-  background-image: url(../img/2201_w039_n003_90b_p1_90.jpg);
+  background-image: url(https://res.cloudinary.com/marangadev/image/upload/v1709135476/consultora/2201_w039_n003_90b_p1_90_e5o8oa.webp);
   background-size: contain;
   background-position: center;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .title {
   font-size: clamp(3rem, 4vw, 5rem) !important;
   font-weight: bolder;
   color: black;
+  background-color: rgba(255, 68, 0, 0.8);
 }
 
 .divMivi {
@@ -30,16 +31,16 @@
 }
 .divMision {
   @extend .divMivi;
-  background-image: url(../img/7566-min.jpg);
+  background-image: url(https://res.cloudinary.com/marangadev/image/upload/v1709135479/consultora/7566-min_l3laqq.webp);
   background-position: 60% 48px;
 }
 .divVision {
   @extend .divMivi;
-  background-image: url(../img/8619-min.jpg);
+  background-image: url(https://res.cloudinary.com/marangadev/image/upload/v1709135479/consultora/8619-min_pdha30.webp);
   background-position: 60% 82px;
 }
 .divValores {
   @extend .divMivi;
-  background-image: url(../img/4565-min.jpg);
+  background-image: url(https://res.cloudinary.com/marangadev/image/upload/v1709135477/consultora/4565-min_qefppd.webp);
   background-position: 60% 40px;
 }
